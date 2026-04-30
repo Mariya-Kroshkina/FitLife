@@ -38,7 +38,7 @@ def run_program(file_path):
             input=user_input,
             text=True,
             capture_output=True,
-            encoding="utf-8",
+            #encoding="utf-8",
             timeout=2,
         )
 
